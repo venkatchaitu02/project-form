@@ -51,8 +51,8 @@ export async function onRequestPost(context) {
         "Content-Type": "application/json;charset=utf-8",
       },
     });
-  }) catch (err) {
-    return new Response("Error parsing JSON content", { status: 400 });
-  }
+  }) //catch (err) {
+    //return new Response("Error parsing JSON content", { status: 400 });
+  //}
 }
 //}
